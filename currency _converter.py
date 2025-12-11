@@ -48,7 +48,7 @@ def firstcurrency_baserate():
     except:
         return None,'N/A'
 
-# Function to get thw base(USD) currency rate of the target currency
+# Function to get the base(USD) currency rate of the target currency
 def targetcurrency_baserate():
     try:
         target_currency = "5678"
